@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@200&family=Open+Sans&display=swap');
+
+body {
+    background-color:#ebd7e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Anek+Gujarati', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(57, 36, 52);
+}
+
+h1 {
+    color: rgb(116, 22, 61);
+}
+
+h4 {
+    margin: 5px;
+} 
+
+.aboutme {
+    margin-top: 20px;
+    padding-left: 20px; 
+}
+
+
+.form {
+    background-color: rgb(185, 176, 162);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.course {
+    background-color: rgba(225, 193, 145, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: rgb(71, 67, 67);
+    font-style: oblique;
+ }
+
+.loves {
+    background-color: rgba(120, 75, 103, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;  
+    color: white;
+}
+
+.skills {
+    background-color: rgb(218, 218, 154);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;  
+    color: rgb(37, 33, 33);
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+img {
+    width: 200px;
+    border-radius: 8%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.me {
+    background-color: #e4e4e4d0;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-bottom: 10px; 
+    display: flex;
+}
+
+.me h4 {
+    margin: 0;
+}
+
+
+@media (max-width: 570px) {
+    .me {
+        display: block;
+        text-align: center;
+    }
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:orange;
+    text-decoration: underline;
+}
+
+a:active {
+    color: orange;
+}
+
+a:visited {
+    color: grey;
+}
+
+.btn {
+    background: rgb(122, 87, 141);
+    border-radius: 5px;
+    border: none;
+    color: rgb(236, 245, 245);
+    padding: 5px 10px;
+    cursor:grab;
+}
+
+.btn:hover {
+    background: rgb(155, 92, 153);
+    font-size: 14px;
+}
+
+
+table td {
+    padding: 10px;;
+    border-bottom: 2px solid rgb(222, 60, 60);
+
+}
+
+table td:nth-child(2) {
+    color: rgba(88, 88, 90, 0.91);
+}
+
+table td:hover {
+    background-color: rgb(221, 128, 118);
+}
+
+ul li {
+    list-style:circle;
+    margin-bottom: 10px;
+}
+
+ul li:hover {
+    background-color: palevioletred;
+}
+
+.skills ul li:hover {
+    background-color: yellowgreen;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    color: rgb(91, 89, 89);
+
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(147, 143, 139);
+    padding: 10px 0 15px;
+    outline:none;
+    font-family: inherit;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 40px;
+    width: 50%;
+    /* width: 45%; */
+}
+
+.form-row .form-group:last-child() {
+    margin-right: 0;
+}
+
+@media (max-width: 500px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        margin-right: 0;
+        width: 100%;
+    }
+}
